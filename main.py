@@ -46,7 +46,7 @@ while game_is_on:
         if snake.head.distance(square) < 10:
             game_is_on = False
             score.game_over()
-            current += 1
+            # current += 1
 
     # if score.again() and current != count:
     #     game_is_on = True
